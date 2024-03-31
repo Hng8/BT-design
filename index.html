@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
         <div class="container">
             <a href="#page-top" class="navbar-brand"><img src="imgs/logo.png" alt="logo" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
@@ -23,9 +23,12 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="main">
-                <ul class="navbar-nav text-uppercase ms-auto mb-2 py-4 py-lg-0">
+                <ul class="navbar-nav text-uppercase ms-auto mt-2  py-lg-0">
                     <li class="nav-item">
-                        <a href="#services" class="nav-link p-2 p-lg-3 active">Services</a>
+                        <a href="#home" class="nav-link p-2 p-lg-3 active">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link p-2 p-lg-3">Services</a>
                     </li>
                     <li class="nav-item">
                         <a href="#portfolio" class="nav-link p-2 p-lg-3">Portfolio</a>
@@ -43,10 +46,19 @@
                 <div class="search ps-3 pe-3 d-none d-lg-block">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
-                <a class="btn rounded-pill main-btn navbar-toggler" href="#">Login</a>
+                <a class="btn main-btn rounded-pill" href="#">Login</a>
             </div>
         </div>
     </nav>
+    <header class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center text-light">
+            <h1>Taste The Creativity</h1>
+            <p class="fs-6 text-white-50 mb-4">We Make People Happy</p>
+            <a class="btn main-btn rounded-pill" href="#">Get Started</a>
+        </div>
+    </header>
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
 </body>
