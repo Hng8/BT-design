@@ -64,6 +64,7 @@ body {
 .landing {
     background-color: var(--dark-color);
     min-height: calc(100vh - 72px);
+    height: 100vh;
 }
 
 /* Start Features */
@@ -123,4 +124,9 @@ body {
 }
 .our-work .box:hover::before {
     transform: translateX(0);
+}
+
+/* Start Stuff */
+.stuff .descreption {
+    max-width: 500px;
 }
