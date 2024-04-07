@@ -147,3 +147,11 @@ body {
     display: none;
 }
 
+/* Start project */
+.project {
+    background-color: var(--dark-color);
+}
+.project p {
+    max-width: 450px;
+    margin: auto;
+}
