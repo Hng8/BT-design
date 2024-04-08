@@ -20,3 +20,13 @@ filterBtns.forEach(btn => {
     this.classList.add('active');
   });
 });
+
+// Scroll to the project section on click
+
+const projectSec = document.getElementById("project");
+
+
+function startProject() {
+  projectSec.scrollIntoView({behavior: "smooth" });
+  console.log("Scrolling")
+  }

@@ -54,7 +54,7 @@
         <div class="text-center text-light">
             <h1>Taste The Creativity</h1>
             <p class="fs-6 text-white-50 mb-4">We Make People Happy</p>
-            <a class="btn main-btn rounded-pill" href="#">Get Started</a>
+            <a class="btn main-btn rounded-pill"  onclick="startProject()" href="#">Get Started</a>
         </div>
     </header>
     <!-- main content -->
@@ -295,15 +295,145 @@
             </div>
         </section>
         <!-- Start project -->
-        <section class="project text-center pt-5 pb-5 text-light">
+        <section class="project text-center pt-5 pb-5 text-light" id="project">
             <h2 class="mt-lg-4 mb-3">Start With Us Today</h2>
             <p class="text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nihil. </p>
             <div class="d-flex justify-content-center mt-5">
                 <a class="btn main-btn rounded-pill" href="#">Start...</a>
             </div>
         </section>
+        <!-- Start Blog -->
+        <section class="blog pt-5 pb-5">
+            <div class="container">
+                <div class="main-title mt-5 mb-5 position-relative text-center">
+                    <img src="imgs/sport.png" alt="" class="mb-4" />
+                    <h2>Read Our Blog</h2>
+                    <p class="text-black-50 text-uppercase">
+                        You can find helpful blogs here
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imgs/Work1.jpg" alt="blog post" class="card-img-top">
+                            <div class="card-body">
+                                <span class="text-black-50">Apr 7, 2024</span>
+                                <h5 class="card-title mt-3">Some Awesome Blog</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imgs/Work3.jpg" alt="blog post" class="card-img-top">
+                            <div class="card-body">
+                                <span class="text-black-50">Apr 7, 2024</span>
+                                <h5 class="card-title mt-3">Some Awesome Blog</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="imgs/Work7.jpg" alt="blog post" class="card-img-top">
+                            <div class="card-body">
+                                <span class="text-black-50">Apr 7, 2024</span>
+                                <h5 class="card-title mt-3">Some Awesome Blog</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-5">
+                    <a class="btn main-btn rounded-pill" href="#">Read...</a>
+                </div>
+            </div>
+        </section>
+        <!-- Start subscribe section -->
+        <section class="subscribe pt-2 pb-2 text-center text-md-start">
+            <div class="container">
+                <form action="" class="row align-items-center p-2">
+                    <div class="col-md-6 col-lg-3 mt-sm-4 mt-4">
+                        <div class="fw-bold fs-5 mb-3">Subscribe To Our Newsletter:</div>
+                    </div>
+                    <div class="col-md-6 col-lg-7 mt-sm-4 mt-4">
+                        <input type="text" class="w-100 text-light p-2 bg-transparent" placeholder="Enter Email Address">
+                    </div>
+                    <div class="col md-6 col-lg-2 mt-sm-4 mt-4">
+                        <input type="submit" class="btn rounded-pill" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
-
+    <!-- Start Footer -->
+    <footer class="pt-5 pb-5 text-white-50 text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-sm-2">
+                    <div class="info  mb-5">
+                        <img src="imgs/logo.png" alt="logo" class="mb-4">
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatum sequi nostrum. Commodi, sapiente quis!</p>
+                        <div class="copyright">
+                            Created By <span>Graphberry</span>
+                            <div>$copy; 2024 - <span>Bondi Inc</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="links">
+                        <h5 class="text-light">Links</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Home</li>
+                            <li>Our Services</li>
+                            <li>Portfolio</li>
+                            <li>Testimonials</li>
+                            <li>Support</li>
+                            <li>Terms And Conditons</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="links">
+                        <h5 class="text-light">Links</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Sign In</li>
+                            <li>Register</li>
+                            <li>About Us</li>
+                            <li>Blog</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact">
+                        <div class="text-light">Contact Us</div>
+                        <p class="lh-lg mt-3 mb-5">Get In Touch With Us Via Email.We Are Waiting For Your Calls</p>
+                        <a class="btn main-btn rounded-pill w-100" href="#">Graphberry@gmail.com</a>
+                        <ul class="d-flex mt-5 list-unstyled gap-3 justify-content-center">
+                            <li>
+                                <a href="#" class="d-block text-light">
+                                    <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block text-light">
+                                    <i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block text-light">
+                                    <i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block text-light">
+                                    <i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="js/script.js"></script>
